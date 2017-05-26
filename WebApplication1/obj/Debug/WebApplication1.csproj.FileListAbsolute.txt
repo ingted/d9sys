@@ -91,6 +91,7 @@ C:\inetpub\linebottest\WebApplication1\bin\System.Web.Http.WebHost.xml
 C:\inetpub\linebottest\WebApplication1\bin\zh-Hant\System.Net.Http.Formatting.resources.dll
 C:\inetpub\linebottest\WebApplication1\bin\zh-Hant\System.Web.Http.resources.dll
 C:\inetpub\linebottest\WebApplication1\bin\zh-Hant\System.Web.Http.WebHost.resources.dll
-C:\inetpub\linebottest\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
 C:\inetpub\linebottest\WebApplication1\obj\Debug\WebApplication1.dll
 C:\inetpub\linebottest\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\inetpub\linebottest\WebApplication1\bin\LineBot.pdb
+C:\inetpub\linebottest\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache

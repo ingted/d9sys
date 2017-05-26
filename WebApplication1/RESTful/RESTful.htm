@@ -1,0 +1,6 @@
+﻿<% #$ifAutoBR = $true; %>
+<% #$funs = $RESTful_funcs.split("/"); %>
+<% #$params = $RESTful_params.split("/"); %>
+<% #cd $Request.MapPath("/"); . ".\restful.ps1" $cache $funs $params $get $post; %>
+<%= $Request.path; %>
+<%= #$pht = @{}; $RESTful_params | %{[void] $pht.add($_, $get[$_])}; %>

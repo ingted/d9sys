@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\inetpub\linebottest\packages\LineBotSDK.0.5.1\lib\net45\LineBot.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ADF74B23-3A83-446A-A9E9-12821382E6D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>LineBot</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Latest\Notify\GetTokenFromCodeResult.cs" />
+    <Compile Include="Latest\Notify\SendNotifyResult.cs" />
+    <Compile Include="Latest\Notify\Utility.cs" />
+    <Compile Include="Latest\Login\GetTokenFromCodeResult.cs" />
+    <Compile Include="Latest\Login\Profile.cs" />
+    <Compile Include="Latest\Login\Utility.cs" />
+    <Compile Include="Latest\Bot\Bot.cs" />
+    <Compile Include="Latest\Bot\Utility.cs" />
+    <Compile Include="Latest\Bot\ImagemapActionBase.cs" />
+    <Compile Include="Latest\Bot\ImagemapMessage.cs" />
+    <Compile Include="Latest\Bot\ImagemapUriAction.cs" />
+    <Compile Include="Latest\Bot\ImagemapMessageAction.cs" />
+    <Compile Include="Latest\Bot\ImagemapArea.cs" />
+    <Compile Include="Latest\Bot\TemplateMessageBase.cs" />
+    <Compile Include="Latest\Bot\TemplateActionBase.cs" />
+    <Compile Include="Latest\Bot\ButtonsTemplate.cs" />
+    <Compile Include="Latest\Bot\Column.cs" />
+    <Compile Include="Latest\Bot\ConfirmTemplate.cs" />
+    <Compile Include="Latest\Bot\CarouselTemplate.cs" />
+    <Compile Include="Latest\Bot\PostbackActon.cs" />
+    <Compile Include="Latest\Bot\MessageActon.cs" />
+    <Compile Include="Latest\Bot\UriActon.cs" />
+    <Compile Include="Latest\Bot\Source.cs" />
+    <Compile Include="Latest\Bot\Postback.cs" />
+    <Compile Include="Latest\Bot\Message.cs" />
+    <Compile Include="Latest\Bot\Event.cs" />
+    <Compile Include="Latest\Bot\ReceievedMessage.cs" />
+    <Compile Include="Latest\Bot\LineUserInfo.cs" />
+    <Compile Include="Lagecy\LineBotHelper.cs" />
+    <Compile Include="Lagecy\Models\SendMsgObject.cs" />
+    <Compile Include="Lagecy\Models\result.cs" />
+    <Compile Include="Lagecy\Models\1Result.cs" />
+    <Compile Include="Lagecy\Models\ContentMetadata.cs" />
+    <Compile Include="Lagecy\Models\Content.cs" />
+    <Compile Include="Lagecy\Models\ReceivedMessage.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
